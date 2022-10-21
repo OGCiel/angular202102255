@@ -3,11 +3,11 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
 declare const $ : any;
 
 @Component({
-  selector: 'app-dashboard',
-  templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.css']
+  selector: 'app-dashboard3',
+  templateUrl: './dashboard3.component.html',
+  styleUrls: ['./dashboard3.component.css']
 })
-export class DashboardComponent implements OnInit {
+export class Dashboard3Component implements OnInit {
 
   constructor(private renderer : Renderer2) { }
 
