@@ -5,6 +5,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { Dashboard2Component } from './dashboard2/dashboard2.component';
 import { Dashboard3Component } from './dashboard3/dashboard3.component';
 import { LoginComponent } from './login/login.component';
+import { MahasiswaComponent } from './mahasiswa/mahasiswa.component';
 import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: "dashboard3", component: Dashboard3Component },
   { path: "login", component: LoginComponent },
   { path: "signup", component: SignupComponent },
+  { path: "mahasiswa", component: MahasiswaComponent },
   { path: "", redirectTo: "login", pathMatch: "full" }
 ];
 
